@@ -1,0 +1,162 @@
+import controlP5.*;
+ControlP5 cp5;
+
+boolean button1 = false;
+boolean button2 = false;
+boolean button3 = false;
+boolean button4 = false;
+boolean button5 = false;
+boolean button6 = false;
+boolean button7 = false;
+public void setup()
+{
+  cp5 = new ControlP5(this);
+
+  size(500,500);
+  background(230,230,230);
+  
+  
+
+
+}
+public void draw()
+{
+  
+  if(button1 == true)
+  {
+    circle(150,450,50);
+    fill(255,0,0);
+  }
+  else if(button2 == true)
+  {
+    circle(150,350,50);
+    fill(255,0,0);
+  }
+  else if(button3 == true)
+  {
+    circle(150,250,50);
+    fill(255,0,0);
+  }
+  else if(button4 == true)
+  {
+    circle(150,150,50);
+    fill(255,0,0);
+  }
+  else if(button5 == true)
+  {
+    circle(150,50,50);
+    fill(255,0,0);
+  }
+  else if(button6 == true)
+  {
+    circle(350,450,50);
+    fill(255,0,0);
+  }
+  else if(button7 == true)
+  {
+    circle(350,350,50);
+    fill(255,0,0);
+  }
+  else
+  {
+    fill(220);
+    circle(150,450,50);
+    circle(150,350,50);
+    circle(150,250,50);
+    circle(150,150,50);
+    circle(150,50,50);
+    circle(350,450,50);
+    circle(350,350,50);
+    textSize(24);
+    fill(51);
+    text("1",144,355);
+    text("2",144,255);
+    text("3",144,155);
+    text("4",144,55);
+    textSize(12);
+    text("Open",135,455);
+    text("Close",335,455);
+    text("Help",335,355);
+  }
+}
+void mousePressed()
+{
+  if (mouseX<175 && mouseX>125 && mouseY<475 && mouseY>425)
+  {
+    if(button1 == false)
+    {
+      button1 = true;
+    }
+    else
+    {
+      button1 = false;
+    }
+  }
+  if (mouseX<175 && mouseX>125 && mouseY<375 && mouseY>325)
+  {
+    if(button2 == false)
+    {
+      button2 = true;
+    }
+    else
+    {
+      button2 = false;
+    }
+  }
+  if (mouseX<175 && mouseX>125 && mouseY<275 && mouseY>225)
+  {
+    if(button3 == false)
+    {
+      button3 = true;
+    }
+    else
+    {
+      button3 = false;
+    }
+  }
+  if (mouseX<175 && mouseX>125 && mouseY<175 && mouseY>125)
+  {
+    if(button4 == false)
+    {
+      button4 = true;
+    }
+    else
+    {
+      button4 = false;
+    }
+  }
+  if (mouseX<175 && mouseX>125 && mouseY<75 && mouseY>25)
+  {
+    if(button5 == false)
+    {
+      button5 = true;
+    }
+    else
+    {
+      button5 = false;
+    }
+  }
+  if (mouseX<375 && mouseX>325 && mouseY<475 && mouseY>425)
+  {
+    if(button6 == false)
+    {
+      button6 = true;
+    }
+    else
+    {
+      button6 = false;
+    }
+  }
+  if (mouseX<375 && mouseX>325 && mouseY<375 && mouseY>325)
+  {
+    if(button7 == false)
+    {
+      button7 = true;
+    }
+    else
+    {
+      button7 = false;
+    }
+  }
+  
+}
