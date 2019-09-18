@@ -3,7 +3,7 @@ Human Computer Interaction homework 1
 C:
 On the outside interface it is a little confusing as to where the button is because it has a security label near it that makes it look like its for something else.
 Inside it is mostly fine but all of the keyholes could be moved so that they are less mindflooding for the average person using it.
-![elevator](https://github.com/JacobFin/Homework1/issues/3#issue-495497842)
+![elevator](https://user-images.githubusercontent.com/44954274/65193383-8ecbe500-da40-11e9-87f7-e2164fcf97b4.jpg)
 ![gif](https://user-images.githubusercontent.com/44954274/65193407-ac994a00-da40-11e9-8248-8af676ee3798.gif)
 
 B:
